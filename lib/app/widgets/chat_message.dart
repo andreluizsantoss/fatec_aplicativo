@@ -63,7 +63,7 @@ class ChatMessage extends StatelessWidget {
           //* Se a mensagem É MINHA
           mine
               ? Padding(
-                  //* Muda o alinhamento da margim para Esquenda
+                  //* Muda o alinhamento da margem para Esquenda
                   padding: const EdgeInsets.only(left: 16),
                   child: CircleAvatar(
                     backgroundImage: NetworkImage(msg['senderPhotoUrl']),

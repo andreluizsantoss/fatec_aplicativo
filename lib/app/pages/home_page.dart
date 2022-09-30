@@ -117,10 +117,6 @@ class _HomePageState extends State<HomePage> {
       });
     }
 
-    //! Código para antes de implementar o envio de imagem
-    // FirebaseFirestore db = FirebaseFirestore.instance;
-    // db.collection("messages").add({"text": text});
-
     //* Mudar para quando enviar a imagem
     if (text != null) data['text'] = text;
 
@@ -195,11 +191,6 @@ class _HomePageState extends State<HomePage> {
                           //* Faz a verificação se quem esta mandando a mensagem sou eu
                           mine: message['uid'] == _currentUser?.uid,
                         );
-
-                        //!Mostrando as mensagens
-                        // return ListTile(
-                        //   title: Text(msg['text']),
-                        // );
                       },
                     );
                 }
@@ -212,9 +203,6 @@ class _HomePageState extends State<HomePage> {
           CustomText(sendMessage: _sendMessage),
         ],
       ),
-
-      //! Mostrando o campo de envio de mensagem
-      // body: CustomText(sendMessage: _sendMessage),
     );
   }
 }
