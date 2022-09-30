@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "1004852013448",
+    "project_id": "fatec-semana",
+    "storage_bucket": "fatec-semana.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004852013448:android:a8d87b1e79e45dc63bb23d",
+        "android_client_info": {
+          "package_name": "com.semana.fatec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1004852013448-4tk1a18ggqusdc8lt45r0sqrou1g8svt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.semana.fatec",
+            "certificate_hash": "a26acccc017dace14b761253e0e5f830bd90950c"
+          }
+        },
+        {
+          "client_id": "1004852013448-9rbgr73vl6c8jlq98fsu5khtmsl7l3qt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKOgy8gzg-rpPuWhupsIVpbI90b1-0HtA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1004852013448-9rbgr73vl6c8jlq98fsu5khtmsl7l3qt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1004852013448-t02j2omegaig047b9047er46caeve72e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.semana.fatec"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
